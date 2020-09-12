@@ -3,18 +3,6 @@ package com.test.Excercises
 
 class FromArrayToTree {
 
-    static class TreeNode {
-        int value
-        TreeNode left
-        TreeNode right
-
-        TreeNode(int value) {
-            this.value = value
-        }
-    }
-
-
-
     //java syntax
     static TreeNode fromArrayToTree(int [] T) {
         if (T==null || T.length==0) return null
@@ -48,6 +36,6 @@ class FromArrayToTree {
 
 
     static void main(String[] args) {
-        fromArrayToTree2([1,2,3,4,5] as int [])
+        fromArrayToTree([1,2,3,4,5] as int [])
     }
 }
